@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Pemformatan Teks</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap" rel="stylesheet">
+    <script src="../js/bootstrap.min.js"></script>
+    <style type="text/css">
+      .co {background-color: #f1f3f5;border-radius:3px;padding-left:5px;padding-right: 5px;text-decoration: none;color:black;}
+      .pad {padding-left: 20px;padding-right: 20px;}
+      .cod {border: 1px solid #000000; margin-left: 20px; margin-right: 20px; height: auto; overflow-y: scroll; overflow-x: scroll; border-radius: 3px; background-color: #f1f1f1; padding: 10px; width: auto;}
+      .cod1 {font-family: 'Lexend', sans-serif; padding-top: 10px; color: black; padding-right: 5px;}
+    </style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Muhamad Firman</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../">Beranda</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+  <h2 class="pad" style="text-align: center; margin-top: 80px;">Pemformatan Teks dalam HTML</h2>
+  <p class="pad">Pemformatan teks memiliki jenisnya, misalnya teks tebal, teks miring, teks garis bawah, teks berwarna, teks superscript, teks suberscript, dan teks yang memiliki background berwarna. Bagaimana sih cara membuatnya ? Yukk kita pelajari bersama dibawah ini</p>
+  <b class="pad">1. Teks Paragraf HTML</b><br>
+  <p class="pad">Dalam Html, kita bisa membuat sebuah paragraf. Untuk membuat sebuah paragraf, kita bisa menggunakan tag <a class="co">&lt;p></a> dengan penutup tag nya <a class="co">&lt;/p></a>. Contoh membuat paragraf menggunakan tag <a class="co">&lt;p></a> seperti kodingan dibawah ini</p>
+  <div class="cod"><pre class="cod1">
+&lt;!DOCTYPE Html>
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title> Pemformatan Teks Html &lt;/title>
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt; Nama : Muhamad Firman &lt;/p&gt;
+    &lt;p&gt; Kelas : XII TKJ 4 &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre></div><br>
+<p class="pad">Hasilnya seperti dibawah ini</p>
+<div class="pad">
+<hr>
+<!DOCTYPE Html>
+   <html>
+      <head>
+         <title> Pengenalan Html </title>
+     </head>
+     <body>
+        <p> Nama : Muhamad Firman </p>
+        <p> Kelas : XII TKJ 4 </p>
+     </body>
+  </html>
+  <hr></div>
+  <b class="pad">2. Enter dalam HTML</b><br>
+  <p class="pad">Dalam html, kita bisa membuat enter atau barisan baru. Untuk membuat enter dalam html, kita bisa menggunakan tag <a class="co">&lt;br></a>. Berikut ini adalah contoh kodingan membuat barisan baru menggunakan tag <a class="co">&lt;br></a>.</p>
+  <div class="cod"><pre class="cod1">
+&lt;!DOCTYPE html>
+&lt;html>
+  &lt;head>
+    &lt;title> Contoh Enter dalam Html &lt;/title>
+  &lt;/head>
+  &lt;body>
+    &lt;p>
+      Teks Ini Merupakan Barisan Pertama
+      &lt;br>
+      Teks Ini Merupakan Barisan Kedua
+      &lt;br>
+      Teks Ini Merupakan Barisan Ketiga
+      &lt;br>
+      Teks Ini Merupakan Barisan Keempat
+      &lt;br>
+      Teks Ini Merupakan Barisan Kelima
+    &lt;/p>
+  &lt;/body>
+&lt;/html></pre></div><br>
+<p class="pad">Hasilnya seperti dibawah ini</p>
+<div class="pad">
+  <hr>
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title> Contoh Enter dalam Html </title>
+  </head>
+  <body>
+    <p>
+      Teks Ini Merupakan Barisan Pertama
+      <br>
+      Teks Ini Merupakan Barisan Kedua
+      <br>
+      Teks Ini Merupakan Barisan Ketiga
+      <br>
+      Teks Ini Merupakan Barisan Keempat
+      <br>
+      Teks Ini Merupakan Barisan Kelima
+    </p>
+  </body>
+</html>
+<hr></div>
+<b class="pad">3. Heading dalam HTML</b><br>
+<p class="pad">Untuk membuat heading dalam html, kita bisa menggunakan tag <a class="co">&lt;h1></a> sampai tag <a class="co">&lt;h6></a>. Tag pertama adalah <a class="co">&lt;h1></a>, <a class="co">&lt;h2></a>, <a class="co">&lt;h3></a>, <a class="co">&lt;h4></a>, <a class="co">&lt;h5></a>, dan terakhir <a class="co">&lt;h6></a>.
+  <ol type="1">
+    <li>&lt;h1> : heading level 1 yang ukuran nya 200% dari ukuran normal</li>
+    <li>&lt;h2> : heading level 2 yang ukuran nya 150% dari ukuran normal</li>
+    <li>&lt;h3> : heading level 3 yang ukuran nya 117% dari ukuran normal</li>
+    <li>&lt;h4> : heading level 4 yang ukuran nya 100% dari ukuran normal</li>
+    <li>&lt;h5> : heading level 5 yang ukuran nya 83% dari ukuran normal</li>
+    <li>&lt;h6> : heading level 6 yang ukuran nya 67% dari ukuran normal</li>
+  </ol></p>
+  <p class="pad">Berikut ini adalah contoh codingan menggunakan tag &lt;h1> sampai &lt;h6></p>
+  <div class="cod"><pre class="cod1">
+&lt;!DOCTYPE html>
+&lt;html>
+  &lt;head>
+    &lt;title> Contoh Heading dalam Html </title>
+  &lt;/head>
+  &lt;body>
+    &lt;h1> Ini adalah heading pertama &lt;/h1>
+    &lt;h2> Ini adalah heading kedua &lt;/h2>
+    &lt;h3> Ini adalah heading ketiga &lt;/h3>
+    &lt;h4> Ini adalah heading keempat &lt;/h4>
+    &lt;h5> Ini adalah heading kelima &lt;/h5>
+    &lt;h6> Ini adalah heading keenam &lt;/h6>
+  &lt;/body>
+&lt;/html>
+  </pre></div><br>
+  <p class="pad"> Hasilnya seperti dibawah ini</p>
+  <div class="pad">
+    <hr>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <title> Contoh Heading dalam Html </title>
+  </head>
+  <body>
+    <h1> Ini adalah heading pertama </h1>
+    <h2> Ini adalah heading kedua </h2>
+    <h3> Ini adalah heading ketiga </h3>
+    <h4> Ini adalah heading keempat </h4>
+    <h5> Ini adalah heading kelima </h5>
+    <h6> Ini adalah heading keenam </h6>
+  </body>
+</html>
+<hr>
+  </div>
+  <b class="pad">4. Teks Tebal dalam HTML</b><br>
+  <p class="pad">Dalam html, kita bisa membuat teks tebal menggunakan tag <a class="co">&lt;b></a>. Berikut ini adalah contoh codingan nya</p>
+  <div class="cod"><pre class="cod1">
+&lt;!DOCTYPE html>
+&lt;html>
+  &lt;head>
+    &lt;title> Contoh Teks Tebal dalam Html &lt;/title>
+  &lt;/head>
+  &lt;body>
+    &lt;b> SMK Cahaya Prima &lt;/b>
+  &lt;/body>
+&lt;/html></pre></div><br>
+<p class="pad">Hasilnya seperti dibawah ini</p>
+<div class="pad">
+  <hr>
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title> Contoh Teks Tebal dalam Html </title>
+  </head>
+  <body>
+    <b> SMK Cahaya Prima </b>
+  </body>
+</html>
+<hr></div>
+<b class="pad">5. Teks Miring dalam HTML</b><br>
+<p class="pad">Dalam html, kita bisa membuat tulisan miring. Untuk menggunakan tulisan miring, kita bisa menggunakan tag &lt;i>. Berikut ini adalah contoh codingan nya</p>
+<div class="cod"><pre class="cod1">
+&lt;!DOCTYPE html>
+&lt;html>
+  &lt;head>
+    &lt;title> Contoh Teks Miring dalam Html &lt;/title>
+  &lt;head>
+  &lt;body>
+    &lt;i> SMK Cahaya Prima &lt;/i>
+  &lt;/body>
+&lt;/html></pre></div><br><p class="pad">Hasilnya seperti dibawah ini</p>
+<div class="pad">
+  <hr>
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title> Contoh Teks Miring dalam Html </title>
+  </head>
+  <body>
+    <i> SMK Cahaya Prima </i>
+  </body>
+</html><hr></div>
+</body>
+</html>
