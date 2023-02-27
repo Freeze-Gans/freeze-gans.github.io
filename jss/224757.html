@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Variabel dalam Javascript</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="../js/bootstrap.min.js"></script>
+    <style type="text/css">
+      .co {background-color: #f1f3f5;border-radius:3px;padding-left:5px;padding-right: 5px;text-decoration: none;color:black;}
+      .pad {padding-left: 20px;padding-right: 20px;}
+      .cod {border: 1px solid #000000; margin-left: 20px; margin-right: 20px; height: auto; overflow-y: scroll; overflow-x: scroll; border-radius: 3px; background-color: #f1f1f1; padding: 10px; width: auto;}
+      .cod1 {padding-top: 10px; color: black; padding-right: 5px;}
+    </style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Muhamad Firman</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../">Beranda</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+  <h2 class="pad" style="text-align: center; margin-top: 80px;">Variabel dalam Javascript</h2>
+  <p class="pad">Variabel adalah penanda identitas yang digunakan untuk menampung suatu nilai. Secara teknis, variabel merujuk ke sebuah alamat di memory komputer (RAM). Ketika kita membuat sebuah variabel, satu ‘slot’ memory akan disiapkan untuk menampung nilai tersebut. Setiap variabel memiliki nama yang dipakai sebagai identitas variabel.</p>
+  <b class="pad">Cara Menampilkan Variabel dalam Javascript</b><br>
+  <p class="pad">Untuk menampilkan isi variabel, kita bisa memanfaatkan fungsi-fungsi untuk menampilkan output seperti:
+    <ul>
+      <li>Fungsi <a class="co">console.log()</a> menampilkan output ke console javascript</li>
+      <li>Fungsi <a class="co">document.write()</a> menampilkan output ke dokumen HTML</li>
+      <li>dan Fungsi <a class="co">alert()</a> menampilkan output ke jendela dialog</li>
+    </ul></p>
+    <p class="pad">Berikut ini adalah contoh codingan nya </p>
+    <div class="cod"><pre class="cod1">
+&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+    &lt;title>Belajar Variabel dalam Javascript&lt;/title>
+    &lt;script>
+        // membuat variabel
+        var name = "Muhamad Firman";
+        var visitorCount = 50322;
+        var isActive = true;
+        var url = "https://freezegans.blogspot.com";
+
+        // menampilkan variabel ke jendela dialog (alert)
+        alert("Selamat datang di " + name);
+    
+        // menampilkan variabel ke dalam HTML
+        document.write("Nama Situs: " + name + "&lt;br>");
+        document.write("Jumlah Pengunjung: " + visitorCount + "&lt;br>");
+        document.write("Status Aktif: " + isActive + "&lt;br>");
+        document.write("Alamat URL: " + url + "&lt;br>");
+    &lt;/script>
+&lt;/head>
+&lt;body>
+&lt;/body>
+&lt;/html>
+    </pre></div>
+</div>
+</body>
+</html>
