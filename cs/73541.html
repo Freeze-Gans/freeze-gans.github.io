@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Pemformatan Teks CSS</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="../js/bootstrap.min.js"></script>
+    <style type="text/css">
+      .co {background-color: #f1f3f5;border-radius:3px;padding-left:5px;padding-right: 5px;text-decoration: none;color:black;}
+      .pad {padding-left: 20px;padding-right: 20px;}
+      .cod {border: 1px solid #000000; margin-left: 20px; margin-right: 20px; height: auto; overflow-y: scroll; overflow-x: scroll; border-radius: 3px; background-color: #f1f1f1; padding: 10px; width: auto;}
+      .cod1 {padding-top: 10px; color: black; padding-right: 5px;}
+    </style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Muhamad Firman</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../">Beranda</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+  <h2 class="pad" style="text-align: center; margin-top: 80px;">Pemformatan Teks dalam CSS</h2>
+  <p class="pad">Hai semuanya, pada kali ini kita akan mempelajari tentang CSS. Materi kali ini adalah tentang Pemformatan Teks dalam CSS. Tujuan dari pemformatan teks ini adalah agar format teks menjadi apa yang kita inginkan. Contohnya kita ingin merubah warna teks nya, mengubah ukuran teks nya dan mengubah style teks nya. Bagaimana caranya ? Berikut ini adalah tutorialnya.<br><br>
+  <b>Cara Mengubah Warna Teks dengan CSS</b><br>
+  Untuk mengubah warna dengan CSS, kita bisa menggunakan syntax color: warna;. Berikut ini adalah contoh codingan nya</p>
+  <div class="cod"><pre class="cod1">
+&lt;!DOCTYPE html>
+&lt;html>
+  &lt;head>
+    &lt;title>Pemformatan Teks dengan CSS&lt;/title>
+  &lt;/head>
+  &lt;body>
+    &lt;p style="color: blue;">Teks Ini Berwarna Biru.&lt;/p>
+  &lt;/body>
+&lt;/html>
+  </pre></div><br>
+  <p class="pad">Hasilnya seperti dibawah ini</p>
+  <div class="pad">
+    <hr>
+    <!DOCTYPE html>
+<html>
+<head>
+<title>Pemformatan Teks dengan CSS</title>
+</head>
+<body>
+<p style="color: blue;">Teks Ini Berwarna Biru.</p>
+</body>
+</html>
+<hr></div><br>
+<b class="pad">Cara Mengubah Letak Teks dengan CSS</b><br>
+<p class="pad">Untuk mengubah letak teks dengan CSS, kita bisa menggunakan syntax text-align. Berikut ini adalah contoh codingan nya</p>
+<div class="cod"><pre class="cod1">
+&lt;!DOCTYPE html>
+&lt;html>
+  &lt;head>
+    &lt;title>Pemformatan Teks dengan CSS&lt;/title>
+  &lt;/head>
+  &lt;body>
+    &lt;p style="text-align: left;">Teks ini terletak pada bagian kiri.&lt;/p>
+    &lt;p style="text-align: center;">Teks ini terletak pada bagian tengah.&lt;/p>
+    &lt;p style="text-align: right;">Teks ini terletak pada bagian kanan.&lt;/p>
+  &lt;/body>
+&lt;/html>
+</pre></div><br>
+<p class="pad">Hasilnya seperti dibawah ini </p>
+<div class="pad">
+  <hr>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pemformatan Teks dengan CSS</title>
+  </head>
+  <body>
+    <p style="text-align: left;">Teks ini terletak pada bagian kiri.</p>
+    <p style="text-align: center;">Teks ini terletak pada bagian tengah.</p>
+    <p style="text-align: right;">Teks ini terletak pada bagian kanan.</p>
+  </body>
+</html>
+<hr></div><br>
+<b class="pad">Cara Membuat Teks Bergaris dengan CSS</b><br>
+<p class="pad">Untuk membuat teks bergaris dengan CSS, kita bisa menggunakan syntax text-decoration. Berikut ini adalah contoh codingan nya</p>
+<div class="cod"><pre class="cod1">
+&lt;!DOCTYPE html>
+&lt;html>
+  &lt;head>
+    &lt;title>Pemformatan Teks dengan CSS&lt;/title>
+  &lt;/head>
+  &lt;body>
+    &lt;p style="text-decoration: line-through;">Teks ini memiliki garis ditengah.&lt;/p>
+    &lt;p style="text-decoration: overline;">Teks ini memiliki garis diatas.&lt;/p>
+    &lt;p style="text-decoration: underline;">Teks ini memiliki garis dibawah.&lt;/p>
+  &lt;/body>
+&lt;/html>
+</pre></div><br>
+<p class="pad">Hasilnya seperti dibawah ini</p>
+<div class="pad"><hr>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pemformatan Teks dengan CSS</title>
+</head>
+<body>
+<p style="text-decoration: line-through;">Teks ini memiliki garis ditengah.</p>
+<p style="text-decoration: overline;">Teks ini memiliki garis diatas.</p>
+<p style="text-decoration: underline;">Teks ini memiliki garis dibawah.</p>
+</body>
+</html>
+<hr></div>
+</body>
+</html>
